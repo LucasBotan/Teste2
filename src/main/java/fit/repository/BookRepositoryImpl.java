@@ -4,12 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fit.domain.Book;
+import fit.repository.abstracts.BookRepository;
 
-public class BookRepository {
+public class BookRepositoryImpl implements BookRepository {
     private List<Book> books;
 
-    public BookRepository() {
+    public BookRepositoryImpl() {
         super();
+        System.out.println("Construindo BookRepositoryImpl");
         books = new ArrayList<Book>();
         books.add(new Book("default", 0));
     }
