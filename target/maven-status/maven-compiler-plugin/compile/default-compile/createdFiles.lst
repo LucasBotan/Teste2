@@ -1,0 +1,4 @@
+fit/repository/BookRepository.class
+fit/domain/Book.class
+fit/services/BookService.class
+fit/App.class
