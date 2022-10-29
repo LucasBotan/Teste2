@@ -16,7 +16,7 @@ public class App
     {
         var appContext = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        System.out.println("Oi Mundo");
+        System.out.println("Oi Mundo!");
 
         var bookSvc = appContext.getBean("bookService", BookService.class);
         System.out.println("Dados de livros...");
